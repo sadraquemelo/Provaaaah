@@ -1,4 +1,126 @@
 *
+/*(*) usado para informar que existem itens que irão recair sobre todo o Html*/
 {
+margin: 0;/*Zerando a margin(top,bottom,right left)*/
+padding: 0;/*Zerando o preenchimento */
+font-family: Georgia, 'Times New Roman', Times, serif;/*Habilitando uma fonte padrão para toda página*/
+list-style: none;/*Removendoos estilos de listas */
     
+}
+
+header{
+    background-color: red;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;/*Justificando o conteúdo - aqui podemos ajustar conforme nossa necessidade*/
+    align-items: center;
+}
+/*Chamamos header img para estilizar*/
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header nav ul {
+    display: flex;/*Tornamos nossa Lista não Ordenada em (Flex),deixando os itens pertecentes a ela, lado a lado */
+}
+
+header nav ul li a {
+    text-decoration: none;/*Decoração do texto (sublinhado)desabilitando(none)*/
+    color: antiquewhite;/*cor da letra*/
+    
+}
+
+.section-1 {
+    /*Usada para habilitar a imagem no fundo da sessão */
+    background-image: url(man-2557408_1280.jpg);/*habilitando uma cor de fundo*/
+    padding: 250px;/*Preenchimento tamanho da sessão*/
+    background-repeat: no-repeat;
+    background-size: cover;/* Ultilizada para que a imagem preencha todo espaço disponivel*/
+    background-position: center;/*Posicionamento da imagem*/
+    display: flex;/*Tornando nosso Header
+    Flex- Deixando os itens lado a lado*/
+    justify-content: center;
+    align-items: center;/*Alinhamento do itens ao centro ( vertical )*/
+}
+
+.section-1 button {
+    width: 150px;/*Largura do botão*/
+    height: 40px;/*Altura do botão*/
+    background-color: rgba(255, 255, 255, 0.671);/*Cor de fundo*/
+    border-radius: 11px;
+}
+
+.section-1 {
+    padding: 250px;/* preenchimento tamanho da sessão*/
+    background-color: blueviolet;
+    background-position: center;/* Posicionamento da imagen*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-2 img {
+    width: 300px;/*Largura da área de conteúdo de um elemento*/
+    height: auto;/*Altura da área do conteúdo*/
+}
+
+.section-2n h2 {
+    /*color definine o valor da cor de um elemento com seu conteúdo */
+    color: white;
+    font-size: 20px;
+    /*font-size estabelece o tamanho da fonte*/
+}
+
+.section-2 p {
+    color: white;
+    font-size: 20px;
+    margin: 15px;/*A propriedade margin define a área de margen nos quatro lados do elemento*/
+}
+
+,.section-3 {
+   /* background-image faz parte do conjunto de propriedades utilizadas na linguagem de estilo para definir a parte do fundo de um elemento   */ 
+   background-image: url(coffee-7897414_1280\ \(1\).jpg);
+   background-attachment: fixed;
+   padding: 250px;
+   background-repeat: no-repeat;/*Bacground-repeat(no repeat)para evitar a reptição da imagem*/
+   background-size: cover;
+}
+
+.section-3 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 900;
+    margin: 15;
+}
+
+.section-3 p {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 15px;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+}
+
+footer{
+    padding: 15px;
+    background-color: black;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
 }
