@@ -1,0 +1,99 @@
+header {
+    background-color: red;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;/*Justificando o conteúdo - aqui podemos ajustar conforme nossa necessidade*/
+    align-items: center;
+}
+/*Chamamos header img para estilizar*/
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header nav ul {
+    display: flex;/*Tornamos nossa Lista não Ordenada em (Flex),deixando os itens pertecentes a ela, lado a lado */
+}
+
+header nav ul li {
+    list-style: none;/*Estilo de Lista*/
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;/*Decoração do texto (sublinhado)desabilitando(none)*/
+    color: antiquewhite;/*cor da letra*/
+}
+
+.div-box div {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 10px;
+   
+}
+
+
+.div-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.caixa01 {
+    background-image: url(coffee-3727673_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.caixa02 {
+    background-image: url(coffee-8388244_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.caixa03 {
+    background-image: url(coffee-2560260_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.caixa04 {
+    background-image: url(breakfast-5705180_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.caixa05 {
+    background-image: url(cappuccino-756490_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.caixa06 {
+    background-image: url(coffee-3727673_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+footer {
+    padding: 15px;
+    background-color: black;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+footer nav ul {
+     display: flex;
+     justify-content: center;
+
+}
+ 
+footer nav ul li {
+    list-style: none;
+    margin-right: 10px;
+
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
