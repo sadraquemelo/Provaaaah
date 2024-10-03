@@ -55,7 +55,7 @@ header nav ul li a {
 
 .section-2 {
     padding: 250px;
-    background-color: blueviolet;
+    background-color: rgba(226, 43, 101, 0.89);
     background-position: center;
     display: flex;
     justify-content: space-evenly;
